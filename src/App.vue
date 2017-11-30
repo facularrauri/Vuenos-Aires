@@ -64,14 +64,14 @@ lo que tenga que ver con el ecosistema de </text>
         return stream.fetch({
           method: 'GET',
           type: 'json',
-          url: 'https://api.meetup.com/vuenos-aires/events/244120894?key=6161702b7f552bb5e42633f4c62692a&sign=true&photo-host=public'
+          url: 'https://api.meetup.com/vuenos-aires/events?key=6161702b7f552bb5e42633f4c62692a&sign=true&photo-host=public&page=20'
         }, callback)
       }
     },
     created () {
       this.getStarCount(res => {
         console.log(res.data)
-        if (res.data !== {}){
+        if (res.data.length !== 0){
           this.meetup = true
           this.name = res.data.venue.name
           this.address = res.data.venue.address_1
@@ -79,6 +79,6 @@ lo que tenga que ver con el ecosistema de </text>
           this.time = res.data.local_time
         }
       })
-    }
+    } 
   }
 </script>
