@@ -15,7 +15,7 @@
 
 <text class="description">
 Vuenos Aires es un meetup donde nos 
-enfocamos en aprender,enseñar y difundir todo 
+enfocamos en aprender, enseñar y difundir todo 
 lo que tenga que ver con el ecosistema de </text>
 <text class="description" style="color:#3eb882">Vue.js </text>
 </div>
