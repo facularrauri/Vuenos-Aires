@@ -24,7 +24,7 @@ $ weex debug App.vue
 
 ``` 
 $ weex platform add ios
-cd */platform/ios
+cd /platform/ios
 $ pod install
 ```
 
