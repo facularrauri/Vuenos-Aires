@@ -29,6 +29,7 @@ $ pod install
 ```
 
 ```
+$ cd ../..
 $ weex run ios
 ```
 
