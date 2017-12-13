@@ -46,6 +46,6 @@
     "weex-router": "0.0.1"
   },
   "optionalDependencies": {
-    "ios-deploy": "^1.9.0"
+    "ios-deploy": "^1.9.2"
   }
 }
