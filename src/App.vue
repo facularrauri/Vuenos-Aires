@@ -91,10 +91,10 @@ lo que tenga que ver con el ecosistema de </text>
         console.log(res.data)
         if (res.data.length !== 0){
           this.meetup = true
-          this.name = res.data.venue.name
-          this.address = res.data.venue.address_1
-          this.date = res.data.local_date
-          this.time = res.data.local_time
+          this.name = res.data[0].venue.name
+          this.address = res.data[0].venue.address_1
+          this.date = res.data[0].local_date
+          this.time = res.data[0].local_time
         }
       })
     } 
